@@ -7,7 +7,7 @@ jobs:
   lint:
     runs-on: ubuntu-latest
     steps:
-      - name: Get code
+      - name: Get ccode
         uses: actions/checkout@v3
       - name: Cache dependencies
         id: cache
