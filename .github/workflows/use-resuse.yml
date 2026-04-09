@@ -70,7 +70,7 @@ jobs:
     needs: build
     uses: ./.github/workflows/reuseable.yml
     with: 
-      artifact-name: dist-file
+      artifact-name: dist-files
    
 
   reports:
